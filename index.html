@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastDeliver - Home Delivery Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>FastDeliver</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to FastDeliver</h2>
+        <p>Reliable home delivery at your doorstep.</p>
+        <div id="3d-scene-home"></div>
+        <button onclick="rotateTruck()">Rotate Truck</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We deliver happiness with speed and care.</p>
+        <div id="3d-scene-about"></div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Explore our delivery zones worldwide.</p>
+        <div id="3d-scene-services"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="3d-scene-contact"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FastDeliver. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
